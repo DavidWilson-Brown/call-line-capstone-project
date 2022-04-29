@@ -1,0 +1,65 @@
+FOLDERS & FILES > COMPONENTS:
+AddListing == AddEntry
+    businesses == scripts
+    addlisting == addentry
+    listing == entry
+    setListing == setEntry
+    name == title
+    address == playwright
+    operatingHours == character
+    description == dialogue
+    e == event
+    newListing == newEntry
+    listing.name == entry.title
+Details == TextCard
+GoogleMap == GoogleMap
+Listing == Entry
+NavBar == NavBar
+Login == Login
+
+CONTAINERS:
+AddListing == AddEntry
+Details == TextCard
+Listing == Entry
+Login == Login
+StatusBar == StatusBar
+
+
+REDUX > ACTIONS
+addListing == AddEntry
+newListing == newEntry
+ADD_LISTING == ADD_ENTRY
+
+deleteListing == deleteEntry
+DELETE_LISTING == DELETE_ENTRY
+
+
+REDUX > REDUCERS
+businesses == scripts
+ADD_LISTING == ADD_ENTRY
+DELETE_LISTING == DELETE_ENTRY
+
+REDUX > STATE
+businesses == scripts
+name == title
+description == dialogue
+address == playwright
+operatingHours == character
+
+
+
+
+id == id
+name == title
+description == dialogue
+operatinghours == character
+address == playwright
+
+API === CURRENT
+COMPONENTS
+GoogleMap {
+    AddEntry
+    GoogleMap
+    TextCard
+} 
+
